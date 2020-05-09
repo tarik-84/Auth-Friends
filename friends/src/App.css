@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+}
+
+.header {
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 2%;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(24, 23, 34);
+  padding: 10px;
+  background: transparent;
+  transition: 0.15s ease-in-out;
+  margin: 10px 0;
+  color: rgb(27, 25, 36);
+  margin-left: 22px;
+}
+
+
+.card {
+  margin: 2% 30%;
+  border: solid 1px black;
+  width: 500px;
+}
+
+.list {
+ display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
